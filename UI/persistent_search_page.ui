@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w_addPersistentApps</class>
+ <widget class="QWidget" name="w_addPersistentApps">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Nutshell | Persistent Application Search</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Icons/Icons.qrc">
+    <normaloff>:/Logo/logo.png</normaloff>:/Logo/logo.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="gb_main">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Application Search (Persistent)</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0" colspan="3">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-146</y>
+           <width>468</width>
+           <height>447</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <widget class="QGroupBox" name="gb_firefox">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="title">
+             <string>Firefox</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_firefox">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/browser.png</normaloff>:/Buttons/browser.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QGroupBox" name="gb_fedora">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Fedora</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_fedora">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QGroupBox" name="gb_chromium">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Chromium</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_chromium">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/browser.png</normaloff>:/Buttons/browser.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QGroupBox" name="gb_arch">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Arch</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_arch">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QGroupBox" name="gb_ubuntu">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Ubuntu</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_ubuntu">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QGroupBox" name="gb_opera">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Opera</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_opera">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/browser.png</normaloff>:/Buttons/browser.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QGroupBox" name="gb_debian">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Debian</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_10">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_debian">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QGroupBox" name="gb_alpine">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>Alpine</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_11">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_alpine">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QGroupBox" name="gb_libreoffice">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="title">
+             <string>LibreOffice</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_12">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="pb_libreoffice">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../Icons/Icons.qrc">
+                 <normaloff>:/Buttons/desktop.png</normaloff>:/Buttons/desktop.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>90</width>
+                 <height>90</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Icons/Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

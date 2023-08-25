@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mw_Main</class>
+ <widget class="QMainWindow" name="mw_Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>576</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Nutshell App Installer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Icons/Icons.qrc">
+    <normaloff>:/Logo/logo.png</normaloff>:/Logo/logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Nutshell App Installer</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="pb_appSearch">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>  Application Search</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../Icons/Icons.qrc">
+           <normaloff>:/Buttons/search.png</normaloff>:/Buttons/search.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_manageApps">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>  Manage Applications</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../Icons/Icons.qrc">
+           <normaloff>:/Buttons/settings.png</normaloff>:/Buttons/settings.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_cancel">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>  Cancel</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../Icons/Icons.qrc">
+           <normaloff>:/Buttons/close.png</normaloff>:/Buttons/close.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>576</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="action_close"/>
+   </widget>
+   <widget class="QMenu" name="menuApps">
+    <property name="title">
+     <string>Apps</string>
+    </property>
+    <addaction name="action_add"/>
+    <addaction name="action_manage"/>
+   </widget>
+   <addaction name="menuWindow"/>
+   <addaction name="menuApps"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_close">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../Icons/Icons.qrc">
+     <normaloff>:/Buttons/close.png</normaloff>:/Buttons/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="action_add">
+   <property name="icon">
+    <iconset resource="../Icons/Icons.qrc">
+     <normaloff>:/Buttons/search.png</normaloff>:/Buttons/search.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search...</string>
+   </property>
+  </action>
+  <action name="action_manage">
+   <property name="icon">
+    <iconset resource="../Icons/Icons.qrc">
+     <normaloff>:/Buttons/settings.png</normaloff>:/Buttons/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>Manage...</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../Icons/Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
