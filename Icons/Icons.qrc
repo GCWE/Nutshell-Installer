@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>logo.png</file>
+    <file>logo-with-text.png</file>
+  </qresource>
+  <qresource prefix="Buttons">
+    <file>desktop.png</file>
+    <file>browser.png</file>
+    <file>close.png</file>
+    <file>search.png</file>
+    <file>settings.png</file>
+  </qresource>
+</RCC>
