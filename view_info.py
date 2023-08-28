@@ -42,8 +42,8 @@ class InfoPage(qtw.QWidget, Ui_w_info):
 
     @qtc.Slot()
     def check_delete(self):
-    	"""If the user wishes to delete a given program"""
-    
+        """If the user wishes to delete a given program"""
+
         # Rereads the contents to ensure they've been updated accordingly
         contents = path.read_text()
         build_date = json.loads(contents)
